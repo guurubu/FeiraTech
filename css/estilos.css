@@ -68,9 +68,16 @@ footer {
   background-color: blue;
   padding-left: 30px;
 }
+
 .menu-lateral li {
   border-bottom: 1px solid gray;
 }
-.menu-lateral li:last-child{
+
+.menu-lateral li:last-child {
   border-bottom: none;
+}
+
+.menu-lateral a.active {
+  background-color:aquamarine;
+  font-weight: bold;
 }

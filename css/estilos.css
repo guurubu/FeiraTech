@@ -6,6 +6,7 @@ body {
 .container {
   width: 80%;
   margin: auto;
+  min-height: 70vh;
 }
 
 header {
@@ -46,21 +47,25 @@ header section {
 }
 
 footer {
-  background-color: red;
-  color: white;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 230, 0);
   padding: 10px;
   margin-top: 10px;
   border-top: 1px solid gray;
+  text-align: center;
 }
 
 /*MENU LATERAL - INICIO*/
 .menu-lateral {
   width: 30%;
   background-color: rgb(52, 52, 52);
+  height: 0%
 }
 
 .menu-lateral ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-lateral a {
@@ -73,6 +78,7 @@ footer {
 
 .menu-lateral a:hover {
   background-color: rgb(238, 255, 0);
+  font-weight: bold;
   padding-left: 30px;
   color: black
 }
